@@ -1,12 +1,18 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import { Container } from "react-bootstrap";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Main from "./Components/Main";
+import "./assets/css/app.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1>Hello from your react application</h1>
-    </div>
+    <React.Fragment>
+      <Header />
+      <Container>
+        <Main />
+        <Footer />
+      </Container>
+    </React.Fragment>
   );
 }
-
-export default App;

@@ -1,0 +1,41 @@
+header {
+  background-color: #0061f2 !important;
+  background-image: linear-gradient(
+    135deg,
+    #0061f2 0%,
+    rgba(105, 0, 199, 0.8) 100%
+  ) !important;
+  color: white;
+  padding-bottom: 10rem;
+  position: relative;
+}
+
+header .content {
+  padding-top: 15rem;
+}
+
+._btn {
+  padding: 0.75rem 2rem;
+}
+
+._btn._success {
+  background-color: #00ba94;
+  border-color: #00ba94;
+  color: white;
+}
+
+._link {
+  text-decoration: none;
+  color: white;
+  margin-left: 0.5rem;
+}
+
+._link:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.navbar {
+  background-color: white;
+  padding: 1rem;
+}
