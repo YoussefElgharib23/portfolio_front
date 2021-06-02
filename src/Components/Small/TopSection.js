@@ -78,13 +78,8 @@ export default function TopSection() {
       <section>
         <Container>
           <Row>
-            {items.map(({ title, description, svg }, index) => (
-              <CardItem
-                key={index}
-                title={title}
-                description={description}
-                svg={svg}
-              />
+            {items.map((item, index) => (
+              <CardItem key={index} {...item} />
             ))}
           </Row>
         </Container>

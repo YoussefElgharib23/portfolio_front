@@ -14,8 +14,8 @@ const NavItem = ({ link, text }) => {
 const NavItems = ({ items }) => {
   return (
     <ul className="navbar-nav ml-auto">
-      {items.map(({ link, text }, index) => (
-        <NavItem key={index} link={link} text={text} />
+      {items.map((item, index) => (
+        <NavItem key={index} {...item} />
       ))}
     </ul>
   );
