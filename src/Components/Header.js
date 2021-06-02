@@ -7,17 +7,15 @@ import Svg from "./Globals/Svg";
 export default function Header() {
   const [navClass, setNavClass] = useState("_no_background");
 
-  window.addEventListener(
-    "scroll",
-    function () {
-      if (window.scrollY === 0) {
-        setNavClass("_no_background");
-      } else {
-        setNavClass("_with_background");
-      }
-    },
-    false
-  );
+  const handleWindowScroll = () => {
+    if (window.scrollY === 0) {
+      setNavClass("_no_background");
+    } else {
+      setNavClass("_with_background");
+    }
+  };
+
+  window.addEventListener("scroll", handleWindowScroll, false);
 
   return (
     <header>
