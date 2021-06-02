@@ -8,9 +8,13 @@
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+body {
+  background-color: #f2f6fc !important;
+}
+
 /* End default style */
 
-svg {
+svg._abs {
   position: absolute;
   bottom: 0;
   left: 0;

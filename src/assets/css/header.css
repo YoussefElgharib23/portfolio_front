@@ -10,6 +10,14 @@ header {
   position: relative;
 }
 
+._no_background {
+  background: none !important;
+}
+
+._with_background {
+  background-color: #212832 !important;
+}
+
 header .content {
   padding-top: 15rem;
 }
@@ -36,6 +44,7 @@ header .content {
 }
 
 .navbar {
+  transition: 0.3s all ease-in-out;
   background-color: white;
   padding: 1rem;
 }

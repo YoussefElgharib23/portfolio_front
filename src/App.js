@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Main from "./Components/Main";
@@ -9,10 +8,8 @@ export default function App() {
   return (
     <React.Fragment>
       <Header />
-      <Container>
-        <Main />
-        <Footer />
-      </Container>
+      <Main />
+      <Footer />
     </React.Fragment>
   );
 }

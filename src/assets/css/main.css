@@ -1,0 +1,57 @@
+main section {
+  padding: 7rem 0;
+  position: relative;
+}
+
+main section:first-child {
+  background-color: white;
+}
+
+.svg_container {
+  background-color: #0061f2 !important;
+  background-image: linear-gradient(
+    135deg,
+    #0061f2 0%,
+    rgba(105, 0, 199, 0.8) 100%
+  ) !important;
+  padding: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.card_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_container svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: white;
+}
+
+.card_container h5 {
+  font-weight: bold;
+}
+
+.card_container p {
+  text-align: center;
+}
+
+._paragraph_explain {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.content-skewed {
+  perspective: 1500px;
+  transform-style: preserve-3d;
+}
+
+.content-skewed-right {
+  perspective-origin: right center;
+}
+
+.content-skewed-item {
+  transform: rotateY(30deg) rotateX(15deg);
+}
