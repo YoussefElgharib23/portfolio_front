@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Navbar from "./Small/Navbar";
 import "../assets/css/header.css";
@@ -10,7 +10,7 @@ export default function Header() {
   window.addEventListener(
     "scroll",
     function () {
-      if (window.scrollY == 0) {
+      if (window.scrollY === 0) {
         setNavClass("_no_background");
       } else {
         setNavClass("_with_background");
@@ -42,7 +42,7 @@ export default function Header() {
                 <a href="" className="btn _success _btn">
                   Get Started
                 </a>
-                <a href="#" className="_link">
+                <a href="" className="_link">
                   Learn more
                 </a>
               </div>

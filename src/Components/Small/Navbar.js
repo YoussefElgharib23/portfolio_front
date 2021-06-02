@@ -39,13 +39,13 @@ const Toggler = () => {
 
 const NavBrand = ({ link, text }) => {
   return (
-    <a className="navbar-brand" href={link}>
+    <a className="navbar-brand font-weight-bold" href={link}>
       {text}
     </a>
   );
 };
 
-export default function Navbar({ textBrand, linkBrand, className}) {
+export default function Navbar({ textBrand, linkBrand, className }) {
   const items = [
     {
       text: "Home",
