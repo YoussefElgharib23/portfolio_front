@@ -12,6 +12,7 @@ export default function Main() {
     <main className="main">
       <TopSection className={""} />
       <SecondSection className={""} />
+      <Separator />
       <ThirdSection className={"_pricing_section "} />
       <QuestionSection className={" _after_pricing_section"} />
       <ReviewSection />

@@ -69,7 +69,6 @@ export default function SecondSection(props) {
           </Col>
         </Row>
       </Container>
-      <Separator />
     </section>
   );
 }
