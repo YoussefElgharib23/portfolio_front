@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import Separator from "./Separator";
 
 export default function SecondSection() {
   const littleCards = [
@@ -61,6 +62,7 @@ export default function SecondSection() {
           </Col>
         </Row>
       </Container>
+      <Separator />
     </section>
   );
 }

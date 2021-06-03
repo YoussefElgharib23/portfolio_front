@@ -8,14 +8,25 @@ main section:first-child {
 }
 
 .svg_container {
+  padding: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.svg_container:not(._blue):not(._secondary) {
   background-color: #0061f2 !important;
   background-image: linear-gradient(
     135deg,
     #0061f2 0%,
     rgba(105, 0, 199, 0.8) 100%
   ) !important;
-  padding: 1.5rem;
-  margin-bottom: 0.75rem;
+}
+
+.svg_container._blue {
+  background-color: #0061f2 !important;
+}
+
+.svg_container._secondary {
+  background-color: #6900c7 !important;
 }
 
 .card_container {
@@ -150,4 +161,34 @@ p._response {
   font-size: 1.5rem;
   color: #0061f2;
   padding-left: 1rem;
+}
+
+._bg_white {
+  background-color: white !important;
+}
+
+.information-card {
+  background-color: white;
+}
+
+h6._blue {
+  color: #0061f2 !important;
+}
+
+h6._secondary {
+  color: #6900c7 !important;
+}
+
+._info_card_container {
+  padding-top: 0;
+  margin-top: -5rem;
+}
+
+.information-card {
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+
+.information-card:hover {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }

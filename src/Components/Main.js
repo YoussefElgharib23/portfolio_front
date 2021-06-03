@@ -1,5 +1,7 @@
 import React from "react";
 import "../assets/css/main.css";
+import Footer from "./Footer";
+import GetStartedSection from "./Small/GetStartedSection";
 import QuestionSection from "./Small/QuestionSection";
 import ReviewSection from "./Small/ReviewSection";
 import SecondSection from "./Small/SecondSection";
@@ -12,10 +14,10 @@ export default function Main() {
     <main className="main">
       <TopSection />
       <SecondSection />
-      <Separator />
       <ThirdSection />
       <QuestionSection />
       <ReviewSection />
+      <GetStartedSection />
     </main>
   );
 }

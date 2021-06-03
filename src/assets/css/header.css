@@ -24,12 +24,27 @@ header .content {
 
 ._btn {
   padding: 0.75rem 2rem;
+  text-decoration: none !important;
+}
+
+._btn:hover {
+  text-decoration: none !important;
 }
 
 ._btn._success {
   background-color: #00ba94;
   border-color: #00ba94;
   color: white;
+}
+
+._btn._blue {
+  background-color: #0061f2;
+  color: white;
+}
+
+._btn._light {
+  background-color: white;
+  color: black;
 }
 
 ._link {

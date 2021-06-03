@@ -68,7 +68,7 @@ export default function ReviewSection() {
     },
   ];
   return (
-    <section>
+    <section className={"_bg_white"}>
       <Container>
         <Row>
           {items.map((item, index) => (
@@ -76,6 +76,7 @@ export default function ReviewSection() {
           ))}
         </Row>
       </Container>
+      <Svg className={"_abs"} color={"#f2f6fc"} />
     </section>
   );
 }

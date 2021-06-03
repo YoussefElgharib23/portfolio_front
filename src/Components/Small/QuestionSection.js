@@ -72,7 +72,7 @@ const Question = ({ question, response }) => {
   return (
     <Col lg={6} className={"d-flex align-items-start mb-4 mb-md-0"}>
       <div className="_icon_space mr-4">
-        <i class="fas fa-question-circle _i_success fa-3x"></i>
+        <i className="fas fa-question-circle _i_success fa-3x"></i>
       </div>
       <div className={"_content"}>
         <h6 className="font-weight-bold">{question}</h6>
