@@ -4,6 +4,7 @@ import GetStartedSection from "./Small/GetStartedSection";
 import QuestionSection from "./Small/QuestionSection";
 import ReviewSection from "./Small/ReviewSection";
 import SecondSection from "./Small/SecondSection";
+import Separator from "./Small/Separator";
 import ThirdSection from "./Small/ThirdSection";
 import TopSection from "./Small/TopSection";
 
