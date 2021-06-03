@@ -27,7 +27,7 @@ export default function Header() {
       <div className="content">
         <Container>
           <Row className="align-items-center">
-            <Col md={6}>
+            <Col md={6} className={"_observe _to_up"}>
               <h1 className="font-weight-bold">
                 Build your next project faster with SB UI Kit Pro
               </h1>
@@ -45,7 +45,11 @@ export default function Header() {
                 </a>
               </div>
             </Col>
-            <Col md={6} className="d-none d-md-block">
+            <Col
+              md={6}
+              className="d-none d-md-block _observe _to_up"
+              style={{ transitionDuration: "1.3s" }}
+            >
               <img src="/images/svg/windows.svg" alt="" />
             </Col>
           </Row>

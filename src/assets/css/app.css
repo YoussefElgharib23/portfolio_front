@@ -25,3 +25,34 @@ svg._abs {
 svg._after_pricing {
   top: -24px !important;
 }
+
+._to_up {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 0.7s all ease-in-out;
+}
+
+._show {
+  opacity: 1 !important;
+}
+
+._to_up._show {
+  transform: translateY(0) !important;
+}
+
+._to_right {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: 0.7s all ease-in-out;
+}
+
+._to_left {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: 0.7s all ease-in-out;
+}
+
+._to_right._show,
+._to_left._show {
+  transform: translateX(0) !important;
+}

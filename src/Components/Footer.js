@@ -188,8 +188,8 @@ const SingleIcon = ({ icon, link }) => {
 const FooterNavItems = ({ items }) => {
   return (
     <Row>
-      {items.map((item) => (
-        <FooterNavItem {...item} />
+      {items.map((item, index) => (
+        <FooterNavItem key={index} {...item} />
       ))}
     </Row>
   );

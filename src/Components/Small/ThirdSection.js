@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-export default function ThirdSection() {
+export default function ThirdSection(props) {
   return (
-    <section className="_pricing_section">
+    <section {...props}>
       <Container>
         <div className="text-center mb-4">
           <h4 className="font-weight-bolder">Pricing Table</h4>

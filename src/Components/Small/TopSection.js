@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Svg from "../Globals/Svg";
 
-export default function TopSection() {
+export default function TopSection(props) {
   const items = [
     {
       svg: (
@@ -74,7 +74,7 @@ export default function TopSection() {
   ];
 
   return (
-    <div>
+    <div {...props}>
       <section>
         <Container>
           <Row>

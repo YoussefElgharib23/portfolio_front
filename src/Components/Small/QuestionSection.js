@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Svg from "./../Globals/Svg";
 
-export default function QuestionSection() {
+export default function QuestionSection(props) {
   const questionItems = [
     {
       question: "What is SB UI Kit Pro?",
@@ -26,7 +26,7 @@ export default function QuestionSection() {
     },
   ];
   return (
-    <section className={"_after_pricing_section"}>
+    <section {...props}>
       <Svg className={"_abs _after_pricing"} top={"-24px"} color={"#212832"} />
       <Container>
         <Questions questionItems={questionItems} />

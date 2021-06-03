@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Separator from "./Separator";
 
-export default function SecondSection() {
+export default function SecondSection(props) {
   const littleCards = [
     [
       {
@@ -39,17 +39,24 @@ export default function SecondSection() {
   ];
 
   return (
-    <section>
+    <section {...props}>
       <Container>
         <Row className="align-items-center">
-          <Col lg={6} className="content-skewed content-skewed-right p-4">
+          <Col
+            lg={6}
+            className="_observe _to_right content-skewed content-skewed-right p-4"
+          >
             <img
               src="/images/png/landing-portfolio.png"
               className="content-skewed-item img-fluid shadow-lg rounded-lg"
               alt=""
             />
           </Col>
-          <Col lg={6}>
+          <Col
+            lg={6}
+            className={"_observe _to_left"}
+            style={{ transitionDuration: "1.4s" }}
+          >
             <div className="mt-5 mt-lg-0">
               <h5 className="font-weight-bold">Here's What You Get</h5>
               <p className="_paragraph_explain">
