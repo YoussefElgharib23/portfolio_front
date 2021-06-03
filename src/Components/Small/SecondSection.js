@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Svg from "../Globals/Svg";
 
 export default function SecondSection() {
   const littleCards = [
@@ -50,7 +49,7 @@ export default function SecondSection() {
             />
           </Col>
           <Col lg={6}>
-            <div className="mt-5 mt-md-0">
+            <div className="mt-5 mt-lg-0">
               <h5 className="font-weight-bold">Here's What You Get</h5>
               <p className="_paragraph_explain">
                 When you purchase this UI Kit, you get access to a robust suite
@@ -62,7 +61,6 @@ export default function SecondSection() {
           </Col>
         </Row>
       </Container>
-      <Svg color={"white"} className={"_abs"} />
     </section>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Svg({ color, className }) {
+export default function Svg({ color, className, top }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -8,6 +8,7 @@ export default function Svg({ color, className }) {
       preserveAspectRatio="none"
       fill={color}
       className={className}
+      style={{ top: { top } }}
     >
       <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
     </svg>

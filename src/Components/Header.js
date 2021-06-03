@@ -20,7 +20,7 @@ export default function Header() {
   return (
     <header>
       <Navbar
-        textBrand={"Protfolio"}
+        textBrand={"Portfolio"}
         className={"navbar navbar-expand-lg navbar-dark fixed-top " + navClass}
         linkBrand={"#"}
       />

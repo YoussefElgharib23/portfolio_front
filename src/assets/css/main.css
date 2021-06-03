@@ -55,3 +55,99 @@ main section:first-child {
 .content-skewed-item {
   transform: rotateY(30deg) rotateX(15deg);
 }
+
+._pricing_section {
+  margin-bottom: -7rem !important;
+  padding-bottom: 0;
+  z-index: 1;
+}
+
+.pricing-space {
+  font-size: 3rem;
+  color: black;
+  margin-bottom: 2.5rem;
+}
+
+.pricing-space .pricing-period {
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.pricing-card {
+  background-color: white;
+  color: black;
+  min-height: 100%;
+}
+
+.pricing-option {
+  list-style-type: none;
+  font-size: 0.9rem !important;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-option:not(.is_active),
+pricing-option:not(.is_active) {
+  color: rgb(136, 136, 136) !important;
+}
+
+i._i_success {
+  color: #00ba94;
+}
+
+._after_pricing_section {
+  background-color: #212832;
+  padding-top: 14rem;
+  color: white;
+}
+
+p._response {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+._svg_div {
+  color: #c5ccd6 !important;
+}
+
+._company_svg {
+  fill: currentColor;
+  height: 3rem;
+  margin-bottom: 1.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+._company_svg:hover {
+  color: black !important;
+}
+
+._review_card {
+  padding: 1.5rem 1rem;
+}
+
+._review_card:not(:nth-child(2)) {
+  border-right: 2px solid rgb(226, 226, 226);
+}
+
+._has_success_border {
+  border-left: 5px solid #00ba94;
+}
+
+._person_name {
+  font-weight: bolder;
+  font-size: 1rem;
+  border-right: 1px solid rgb(226, 226, 226);
+}
+
+._review_company::before {
+  content: '" ';
+}
+
+._review_company::after {
+  content: ' "';
+}
+
+._review_company {
+  font-size: 1.5rem;
+  color: #0061f2;
+  padding-left: 1rem;
+}

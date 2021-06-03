@@ -21,3 +21,7 @@ svg._abs {
   height: 1.5rem;
   width: 100%;
 }
+
+svg._after_pricing {
+  top: -24px !important;
+}
